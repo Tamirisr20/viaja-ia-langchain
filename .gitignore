@@ -1,0 +1,22 @@
+# Segredos
+.env
+
+# Ambiente virtual
+langchain/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Gerados pelo projeto
+indice_faiss/
+dados/
+documentos/*.pdf
+langchain-rag/
+venv/
+env/
+*.code-workspace
+documentos/*
+!documentos/.gitkeep
+*.code-workspace
